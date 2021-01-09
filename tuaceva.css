@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap');
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+}
+
+/*
+.navbar-container div {
+    width: 33%;
+}
+*/
+
+.logo-container {
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.logo {
+    width: 225px;
+    height: 112.5px;
+}
+
+.navbutton-container {
+    width: 40%;
+    font-family: 'Signika';
+
+}
+
+.cart-container {
+    width: 40%;
+    text-align: right;
+    font-family: 'Signika';
+}
+
+.navbutton {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #361516;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 50px 15px 50px 15px;
+    display: inline-block;    
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.yellow-text {
+    color: #EAA523;
+}
