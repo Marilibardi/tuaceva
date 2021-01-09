@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400&display=swap'); 
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Signika';
+    background-color: #FEFEFE;
+}
 
 .navbar-container {
     display: flex;
     width: 100%;
 }
-
-/*
-.navbar-container div {
-    width: 33%;
-}
-*/
 
 .logo-container {
     width: 20%;
@@ -19,20 +20,18 @@
 }
 
 .logo {
-    width: 225px;
-    height: 112.5px;
+    width: 150px;
+    height: 75px;
 }
 
 .navbutton-container {
     width: 40%;
-    font-family: 'Signika';
 
 }
 
 .cart-container {
     width: 40%;
-    text-align: right;
-    font-family: 'Signika';
+    text-align: right;    
 }
 
 .navbutton {
@@ -52,4 +51,96 @@
 
 .yellow-text {
     color: #EAA523;
+}
+
+.banner-image {
+    width: 100%;
+      
+}
+
+.slogan-title {
+    font-size: 40px;
+    color: #361516;
+    text-align: center;
+    padding-top: 70px;
+    display: block;
+    font-weight: bold;
+}
+
+.slogan-subtitle {
+    font-size: 16px;
+    color: #B12025;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
+.assinaturas {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.container-assinatura {
+    background-color: #361516;
+    padding: 40px;
+}
+
+.barra-assinatura {
+    width: 260px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+}
+
+.container-barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barras-empilhadas {
+    width: 34px;
+    height: 24px;
+}
+
+.titulo-assinatura {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#EAA523;
+    padding-right: 26px;
+    padding-left: 26px;
+}
+
+.valor-assinatura {
+    padding-top: 40px;
+    font-size: 24px !important; 
+    font-weight: bolder !important;
+    padding-bottom: 40px !important;    
+}
+
+.descricao-assinatura span {
+    display: block;
+    color: #EAA523;
+    font-size: 20px;
+    font-weight: 500; 
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.container-btn-assinar {
+    display: flex;
+    justify-content: center;
+}
+
+.container-btn-assinar a {
+    color: #361516;
+    background-color: #EAA523;
+    border-radius: 4px;
+    border-color: #EAA523;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 12px 44px 12px 44px;
+    text-decoration: none;
 }
