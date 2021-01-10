@@ -178,3 +178,62 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.produtos {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto-item {
+    max-width: 320px;
+    text-align: center;
+}
+
+.background-produto {
+    background-image: url("../images/background-produto-menor.png");
+    max-width: 320px;
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+.produto-image {
+    width: 300px;
+    height: 300px;
+    padding-left: 10px;
+}
+
+.produto-detalhe {
+    padding-top: 10px;
+}
+
+.nome-cerveja {
+    font-size: 18px;
+    color: #361516;
+ }
+
+ .descricao-cerveja {
+     color: #BDBDBD;
+     font-size: 14px;
+     padding-top: 5px;
+ }
+
+ .valor-cerveja {
+     color: #EAA523;
+     font-size: 18px;
+     padding-top: 5px;
+ }
+
+ .container-btn-comprar {
+     padding-top: 20px
+ }
+ .container-btn-comprar a {
+    color: #361516;
+    background-color: #EAA523;
+    border-radius: 4px;
+    border-color: #EAA523;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
