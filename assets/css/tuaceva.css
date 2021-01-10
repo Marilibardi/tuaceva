@@ -144,3 +144,37 @@ body {
     padding: 12px 44px 12px 44px;
     text-decoration: none;
 }
+
+.comofunciona-image {
+    width: 242px;
+    height: 413px;
+    padding-top: 70px;
+    
+}
+
+.comofunciona {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.loja-torneira {
+    display: flex;
+    width: 32px;
+    height: 140px;
+    align-items: center;
+}
+
+.loja-title {
+    color: #361516;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.container-loja-title {
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
