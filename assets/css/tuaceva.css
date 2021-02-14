@@ -304,5 +304,21 @@ body {
 .rodape-saibamais {
     color: #FEFEFE;
     font-size: 16px;
-    text-decoration: none;  
+    text-decoration: none;
+}
+
+.footer-saibamais ul {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.footer-saibamais ul li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.titulo-ajuda-e-suporte {
+    color: #B12025;
+    font-size: 18px;
+    font-family: 'Axis';
 }
